@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package transport.protocol;
 
 import java.io.IOException;
@@ -20,10 +15,6 @@ import java.util.LinkedList;
 import java.util.Random;
 import static transport.protocol.Networks.mode;
 
-/**
- *
- * @author Rowan Salem
- */
 public class Server extends Networks {
 
     private static volatile boolean working;
