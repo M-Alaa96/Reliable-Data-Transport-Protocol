@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package transport.protocol;
 
 import java.io.ByteArrayOutputStream;
@@ -21,10 +17,6 @@ import java.util.LinkedList;
 import java.util.List;
 import static sun.security.krb5.Confounder.bytes;
 
-/**
- *
- * @author Rowan Salem
- */
 public class Client extends Networks {
 
     private volatile boolean working;
