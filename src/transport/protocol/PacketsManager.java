@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package transport.protocol;
 
@@ -13,19 +8,15 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-/**
- *
- * @author Rowan Salem
- */
 public class PacketsManager {
 private static String serverPath;
     protected static int WaitTime;// timer in ms
-    protected static int packetSize;// 3yzeno 512 bs howa 1024
+    protected static int packetSize;
     public static int windowSize;
     private static double dropRate;// drop rate of packet in precentage
     protected int overAllSize;
     protected int packetCount;// number of packets
-    protected int windowHigh; // window high 2idy el yemeen
+    protected int windowHigh; 
     protected int windowLow;
     protected LinkedList<PacketTimer> timers;// to handle timeout
     private byte[][] packetsBytes; // kaza packet kol packet fi row w el data fi el coloumns
